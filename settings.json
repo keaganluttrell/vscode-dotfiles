@@ -1,5 +1,5 @@
 {
-    "workbench.colorTheme": "Monokai",
+    "workbench.colorTheme": "Default",
     "workbench.startupEditor": "none",
     "editor.scrollbar.verticalScrollbarSize": 0,
     "terminal.integrated.copyOnSelection": true,
@@ -23,32 +23,32 @@
         },
         {
             "before": ["<leader>", "t", "r"],
-            "commands": ["workbench.files.action.focusFilesExplorer"],
+            "commands": ["workbench.files.action.focusFilesExplorer"]
         },
         // Easy way to hide the peksy activitybar... boo activity bar
         {
             "before": ["<leader>", "a", "b"],
-            "commands": ["workbench.action.toggleActivityBarVisibility"],
+            "commands": ["workbench.action.toggleActivityBarVisibility"]
         },
         // Toggle zen mode
         {
             "before": ["<leader>", "z", "m"],
-            "commands": ["workbench.action.toggleZenMode"],
+            "commands": ["workbench.action.toggleZenMode"]
         },
         // Toggle minimap
         {
             "before": ["<leader>", "m", "m"],
-            "commands": ["editor.action.toggleMinimap"],
+            "commands": ["editor.action.toggleMinimap"]
         },
         // Toggle breadcrumb
         {
             "before": ["<leader>", "b", "c"],
-            "commands": ["breadcrumbs.toggle"],
+            "commands": ["breadcrumbs.toggle"]
         },
         // Find and Repalce
         {
             "before": ["<leader>", "f", "r"],
-            "commands": ["editor.action.startFindReplaceAction"],
+            "commands": ["editor.action.startFindReplaceAction"] 
         },
         // Text Search across files in repo
         {
@@ -104,7 +104,6 @@
         }
     ],
     "editor.lineNumbers": "on",
-    "workbench.activityBar.visible": false,
     "editor.renderWhitespace": "all",
     "breadcrumbs.enabled": false,
     "editor.minimap.enabled": false

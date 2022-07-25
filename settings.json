@@ -5,6 +5,7 @@
     "terminal.integrated.copyOnSelection": true,
     "vim.useCtrlKeys": true,
     "vim.leader": "<space>",
+    "vim.useSystemClipboard": true,
     "vim.normalModeKeyBindingsNonRecursive": [
         // make splits great again
         {
@@ -48,13 +49,13 @@
         // Find and Repalce
         {
             "before": ["<leader>", "f", "r"],
-            "commands": ["editor.action.startFindReplaceAction"] 
+            "commands": ["editor.action.startFindReplaceAction"]
         },
         // Text Search across files in repo
         {
             "before": ["<leader>", "s", "p"],
             "commands": ["workbench.view.search"]
-        }, 
+        },
         // Find in files
         {
             "before": ["<leader>", "f", "f"],
@@ -104,7 +105,8 @@
         }
     ],
     "editor.lineNumbers": "on",
-    "editor.renderWhitespace": "all",
+    "editor.fontSize": 12,
+    "editor.renderWhitespace": "none",
     "breadcrumbs.enabled": false,
-    "editor.minimap.enabled": false
+    "editor.minimap.enabled": false,
 }

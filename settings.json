@@ -109,4 +109,5 @@
     "editor.renderWhitespace": "none",
     "breadcrumbs.enabled": false,
     "editor.minimap.enabled": false,
+    "files.autoSave": "onFocusChange"
 }

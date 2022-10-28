@@ -37,3 +37,8 @@ Linux uses `Alt` and MacOS uses `Cmd`. This means you need to duplicate any comm
 ]
 ```
 The __todo__ part of this is somehow templetizing this so we don't have to think about it. Easier said than done so I'll just deal with copy/pasting a few extra lines as needed.
+
+Run this to make enable press and hold
+```bash
+defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool true
+```

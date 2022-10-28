@@ -1,111 +1,111 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
-    // Make Pane Full Screen
-    {
-        "key": "ctrl+alt+m", // Linux
-        "command": "workbench.action.toggleMaximizedPanel"
-    },
-    {
-        "key": "ctrl+cmd+m", // Mac
-        "command": "workbench.action.toggleMaximizedPanel"
-    },
+  // Make Pane Full Screen
+  {
+    "key": "ctrl+alt+m", // Linux
+    "command": "workbench.action.toggleMaximizedPanel"
+  },
+  {
+    "key": "ctrl+cmd+m", // Mac
+    "command": "workbench.action.toggleMaximizedPanel"
+  },
 
-    // Navigate Splits
-    {
-        "key": "ctrl+h",
-        "command": "workbench.action.navigateLeft"
-    },
-    {
-        "key": "ctrl+l",
-        "command": "workbench.action.navigateRight"
-    },
-    {
-        "key": "ctrl+k",
-        "command": "workbench.action.navigateUp"
-    },
-    {
-        "key": "ctrl+j",
-        "command": "workbench.action.navigateDown"
-    },
+  // Navigate Splits
+  {
+    "key": "ctrl+h",
+    "command": "workbench.action.navigateLeft"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "workbench.action.navigateRight"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "workbench.action.navigateUp"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "workbench.action.navigateDown"
+  },
 
-    // Move Tab to different split
-    {
-        "key": "ctrl+alt+k", // Linux
-        "command": "workbench.action.moveEditorToAboveGroup"
-    },
-    {
-        "key": "ctrl+cmd+k", // Mac
-        "command": "workbench.action.moveEditorToAboveGroup"
-    },
-    {
-        "key": "ctrl+alt+j", // Linux
-        "command": "workbench.action.moveEditorToBelowGroup"
-    },
-    {
-        "key": "ctrl+cmd+j", // Mac
-        "command": "workbench.action.moveEditorToBelowGroup"
-    },
-    {
-        "key": "ctrl+alt+h", // Linux
-        "command": "workbench.action.moveEditorToLeftGroup"
-    },
-    {
-        "key": "ctrl+cmd+h", // Mac
-        "command": "workbench.action.moveEditorToLeftGroup"
-    },
-    {
-        "key": "ctrl+alt+l", // Linux
-        "command": "workbench.action.moveEditorToRightGroup"
-    },
-    {
-        "key": "ctrl+cmd+l", // Mac
-        "command": "workbench.action.moveEditorToRightGroup"
-    },
+  // Move Tab to different split
+  {
+    "key": "ctrl+alt+k", // Linux
+    "command": "workbench.action.moveEditorToAboveGroup"
+  },
+  {
+    "key": "ctrl+cmd+k", // Mac
+    "command": "workbench.action.moveEditorToAboveGroup"
+  },
+  {
+    "key": "ctrl+alt+j", // Linux
+    "command": "workbench.action.moveEditorToBelowGroup"
+  },
+  {
+    "key": "ctrl+cmd+j", // Mac
+    "command": "workbench.action.moveEditorToBelowGroup"
+  },
+  {
+    "key": "ctrl+alt+h", // Linux
+    "command": "workbench.action.moveEditorToLeftGroup"
+  },
+  {
+    "key": "ctrl+cmd+h", // Mac
+    "command": "workbench.action.moveEditorToLeftGroup"
+  },
+  {
+    "key": "ctrl+alt+l", // Linux
+    "command": "workbench.action.moveEditorToRightGroup"
+  },
+  {
+    "key": "ctrl+cmd+l", // Mac
+    "command": "workbench.action.moveEditorToRightGroup"
+  },
 
-    // Browser-like tab close
-    {
-        "key": "ctrl+w",
-        "command": "workbench.action.closeActiveEditor"
-    },
+  // Browser-like tab close
+  {
+    "key": "ctrl+w",
+    "command": "workbench.action.closeActiveEditor"
+  },
 
-    // Vimium-like change tabs
-    {
-        "key": "shift+j",
-        "command": "workbench.action.previousEditor",
-        "when": "inputFocus && vim.mode == 'Normal'"
-    },
-    {
-        "key": "shift+k",
-        "command": "workbench.action.nextEditor",
-        "when": "inputFocus && vim.mode == 'Normal'"
-    },
+  // Vimium-like change tabs
+  {
+    "key": "shift+j",
+    "command": "workbench.action.previousEditor",
+    "when": "inputFocus && vim.mode == 'Normal'"
+  },
+  {
+    "key": "shift+k",
+    "command": "workbench.action.nextEditor",
+    "when": "inputFocus && vim.mode == 'Normal'"
+  },
 
-    // Tell mac to behave like it should with the file tree
-    {
-        "key": "cmd+enter",
-        "command": "renameFile",
-        "when": "explorerViewletVisible && filesExplorerFocus"
-      },
-      {
-        "key": "enter",
-        "command": "-renameFile",
-        "when": "explorerViewletVisible && filesExplorerFocus"
-      },
-      {
-        "key": "enter",
-        "command": "list.select",
-        "when": "listFocus && !inputFocus"
-      },
-      // File Search Helpers
-      {
-        "key": "enter",
-        "command": "search.action.focusSearchList",
-        "when": "sideBarFocus && focusedView == workbench.view.search"
-      },
-      // Close Sidebar with Escape
-      {
-        "key": "escape",
-        "command": "workbench.action.toggleSidebarVisibility",
-        "when": "sideBarFocus"
-      }
+  // Tell mac to behave like it should with the file tree
+  {
+    "key": "cmd+enter",
+    "command": "renameFile",
+    "when": "explorerViewletVisible && filesExplorerFocus"
+  },
+  {
+    "key": "enter",
+    "command": "-renameFile",
+    "when": "explorerViewletVisible && filesExplorerFocus"
+  },
+  {
+    "key": "enter",
+    "command": "list.select",
+    "when": "listFocus && !inputFocus"
+  },
+  // File Search Helpers
+  {
+    "key": "enter",
+    "command": "search.action.focusSearchList",
+    "when": "sideBarFocus && focusedView == workbench.view.search"
+  },
+  // Close Sidebar with Escape
+  {
+    "key": "escape",
+    "command": "workbench.action.toggleSidebarVisibility",
+    "when": "sideBarFocus"
+  }
 ]

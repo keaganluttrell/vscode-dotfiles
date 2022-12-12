@@ -121,14 +121,13 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "aws.profile": "profile:default",
-  "files.associations": {
-    "*.json ": "ssm-json"
-  },
-  "editor.minimap.enabled": false,
   "editor.fontFamily": "FiraCode-Retina",
   "editor.fontWeight": "450",
   "editor.fontLigatures": true,
   "editor.tabSize": 2,
-  "workbench.colorTheme": "Visual Studio Light"
+  "workbench.colorTheme": "Default Light+",
+  "files.associations": {
+    "*.json": "json"
+  },
+  "editor.minimap.enabled": false
 }
